@@ -12,3 +12,15 @@ body {
     margin: 0;
     padding: 0;
 }
+.principal{
+    background-image: url("r767447_1176x661_16-9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+
+    }
+
+.container {
+        height: 100vh;
+    }
