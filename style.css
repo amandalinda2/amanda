@@ -6,8 +6,8 @@
     --fonte-principal: 'Inter';
 
 }
-body {
-    background-color: var(--cinza-secundario);
+.body {
+    background-color: #167BF7;
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
@@ -21,6 +21,8 @@ body {
     background-image: url("r767447_1176x661_16-9.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
     .container {
@@ -58,6 +60,7 @@ body {
 
         .container__imagem {
             margin: 1em 0 2em 0;
+            
         }
 
         .container__caixa {
