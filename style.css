@@ -18,11 +18,11 @@
     padding: 0;
 }
 .principal{
-    background-image: url("r767447_1176x661_16-9.png");
+    background-image: url(disney-plus-1.png)
     background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
-    text-align: center;
+    background-size contain;
+    align-items center;
+    text-align; center
 }
 
     .container {
