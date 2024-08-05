@@ -19,11 +19,10 @@
 }
 .principal{
     background-image: url(disney-plus-1.png)
-    background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
-}
+ }
 
     .container {
         height: 35vh;
@@ -34,7 +33,7 @@
 
         .container__botao {
             background-color: var(--botao-azul);
-            border-radius: 5px;
+            border-radius: 15px;
             padding: 1em;
             color: var(--black);
             display: block;
@@ -48,7 +47,7 @@
         }
 
         .container__aviso {
-            font-size: 14px;
+            font-size: 15px;
             color: var(--black);
         
         }
@@ -67,3 +66,19 @@
             margin: 0 6em;
         }
         
+        .secundario__imagem {
+            margin:0 8em ;
+            width: 80%;
+        }
+
+        .secundario {
+            align-items: center;
+            margin: 0 10em;
+        }
+
+        .descricao__titulo {
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--black);
+            margin-bottom: 0.1em;
+        }
