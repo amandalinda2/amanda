@@ -8,7 +8,7 @@
 }
 .body {
     background-color: #167BF7;
-    color: var(--branco-principal);
+    color: var(--black);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
@@ -44,6 +44,8 @@
         .botao_secundario {
             background-color: transparent;
             border: 2px solid var(--branco-principal)
+
+
         }
 
         .container__aviso {
@@ -67,12 +69,12 @@
         }
         
         .secundario__imagem {
-            margin:0 8em ;
+            margin:0 55em ;
             width: 80%;
         }
 
         .secundario {
-            align-items: center;
+            align-items:center;
             margin: 0 10em;
         }
 
@@ -81,4 +83,17 @@
             font-size: 18px;
             color: var(--black);
             margin-bottom: 0.1em;
+        }
+
+        .descricao__texto {
+            color: var(--black);
+        }
+
+        .secundario__botao {
+            display: inline-block;
+            margin-top: 1em;
+        }
+
+        .container__descricao {
+            padding: 2em;
         }
