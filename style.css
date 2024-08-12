@@ -44,9 +44,7 @@
         .botao_secundario {
             background-color: transparent;
             border: 2px solid var(--branco-principal)
-            display: inline-block;
-            margin-top: 1em;
-
+            
         }
 
         .container__aviso {
@@ -57,7 +55,7 @@
 
         .container__titulo {
             font-size: 28px;
-            font-weight: 700;
+            font-weight: 400;
         }
 
         .container__imagem {
@@ -70,8 +68,8 @@
         }
         
         .secundario__imagem {
-            margin:0 55em ;
-            width: 80%;
+            margin:0 50em ;
+            width: 90%;
         }
 
         .secundario {
@@ -88,7 +86,8 @@
 
         .descricao__texto {
             color: var(--black);
-            align-items: normal
+            align-items: 
+            
         }
 
         .secundario__botao {
