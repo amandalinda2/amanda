@@ -17,12 +17,12 @@
     margin: 0;
     padding: 0;
 }
-.principal{
+   .principal {
     background-image: url(disney-plus-1.png)
     background-size: contain;
     align-items: center;
     text-align: center;
- }
+   }
 
     .container {
         height: 35vh;
@@ -44,7 +44,8 @@
         .botao_secundario {
             background-color: transparent;
             border: 2px solid var(--branco-principal)
-
+            display: inline-block;
+            margin-top: 1em;
 
         }
 
@@ -74,7 +75,6 @@
         }
 
         .secundario {
-            align-items:center;
             margin: 0 10em;
         }
 
@@ -83,10 +83,12 @@
             font-size: 18px;
             color: var(--black);
             margin-bottom: 0.1em;
+
         }
 
         .descricao__texto {
             color: var(--black);
+            align-items: normal
         }
 
         .secundario__botao {
