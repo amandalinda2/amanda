@@ -1,6 +1,6 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
+    --branco-principal: hsla(0, 0%, 100%, 0.993);
+    --cinza-secundario: #c0c0c0bb;
     --botao-azul: #167BF7;
     --cor-de-fundo: black
     --fonte-principal: 'Inter';
@@ -18,14 +18,15 @@
     padding: 0;
 }
    .principal {
-    background-image: url(disney-plus-1.png)
+    background-image: url(5up_presssiteheaderimage-pre_4352afc3.jpeg);
+    background-repeat: no-repeat;
     background-size: contain;
-    align-items: center;
-    text-align: center;
+    align-items:center;
+    text-align:center;
    }
-
+ 
     .container {
-        height: 35vh;
+        height: 100vh;
         display: grid;
         grid-template-columns: 50% 50%;
     }
@@ -86,7 +87,7 @@
 
         .descricao__texto {
             color: var(--black);
-            align-items: 
+            align-items:center;
             
         }
 
